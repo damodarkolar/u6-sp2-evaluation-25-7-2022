@@ -9,7 +9,7 @@ import { handleLogOut } from "../redux/action";
 const Navbar = () => {
 // const token=useSelector(state=>state.token);
 const dispatch=useDispatch()
-const token=0
+const token=5
 
 const handleNavbarLogOut=()=>{
     dispatch(handleLogOut());
